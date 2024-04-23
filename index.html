@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Tudo Novo Volkswagen</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<div class="row">
+		<img src="topo.png" alt="Tudo novo Volkswagen" width="100%" height="150px"/>
+    <center>
+  <br>
+  <div class="tab">
+  <button class="tablinks" onclick="openCar(event, 'Polo')" id="DefaultOpen" >Novo Polo</button>
+
+  <button class="tablinks" onclick="openCar(event, 'Up')">Up!</button>
+  <br>
+</div>
+</center>
+</head>
+<body>
+  <div id="Polo" class="tabcontent">
+  <h2>Novo Polo A partir de R$ 49,990+ Taxa 0% </h3>
+  <h3></h3>
+  <h2>1.0 MPI</h2>
+  <img class="carros" src="novo_polo.png">
+</div>
+
+<div id="Up" class="tabcontent">
+  <h2>Up</h2>
+  <h3>1.6 MPI</h3>
+  <h2>A ser adicionado </h2>
+  <img class="carros" src="up.png">
+</div>
+
+<div>
+<form class="form-horizontal">
+
+<!-- Form Name -->
+<legend id="legenda">Escolha o modelo que você deseja e receba ofertas imperdíveis em primeira mão</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="nomecompleto"></label>  
+  <div class="col-md-4">
+  <input id="nomecompleto" name="nomecompleto" type="text" placeholder="nome" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email"></label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="email" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="telefone"></label>  
+  <div class="col-md-4">
+  <input id="telefone" name="telefone" type="text" placeholder="telefone" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="mensagem"></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="mensagem" name="mensagem">mensagem</textarea>
+  </div>
+</div>
+
+</form>
+   <fieldset> Insira aqui ! </fieldset>
+    <input type="submit" value="GARANTA AGORA"
+    style="width:250px">
+</div>
+
+<footer>Imagens Ilustrativas.Novo Polo 1.0 MPI - preto - a partir de R$ 49,990.00 - condição de taxa 0% válida exclusivamente para modelos 1.0 MPI e 1.6 MSI com entrada de 90% e saldo em 12 meses.Promoção válida até 28/02/2018 ou enquanto durar o estoque.
+  <img class="resultatelogo" src="resultate.png">
+</footer>
+</body>
+<script src="app.js">
+</script>
+
+</html>
